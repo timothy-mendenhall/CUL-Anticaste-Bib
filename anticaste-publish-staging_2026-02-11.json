@@ -1,0 +1,318 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "clio_identifier-1:clio_identifier_value",
+          "expression": "isBlank(value)",
+          "columnName": "clio_identifier-1:clio_identifier_value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "clio_identifier-1:clio_identifier_value",
+    "expression": "grel:if(isNotNull(cell.cross('Items','001').cells['001'].value),'Match',null)",
+    "onError": "set-to-blank",
+    "newColumnName": "ItemCheck",
+    "columnInsertIndex": 19,
+    "description": "Create column ItemCheck at index 19 based on column clio_identifier-1:clio_identifier_value using expression grel:if(isNotNull(cell.cross('Items','001').cells['001'].value),'Match',null)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "clio_identifier-1:clio_identifier_value",
+          "expression": "isBlank(value)",
+          "columnName": "clio_identifier-1:clio_identifier_value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "_identifiers-1",
+    "expression": "grel:if(isNotNull(cell.cross('Assets','_identifiers-1').cells['_identifiers-1'].value),'Match',null)",
+    "onError": "set-to-blank",
+    "newColumnName": "AssetCheck",
+    "columnInsertIndex": 10,
+    "description": "Create column AssetCheck at index 10 based on column _identifiers-1 using expression grel:if(isNotNull(cell.cross('Assets','_identifiers-1').cells['_identifiers-1'].value),'Match',null)"
+  },
+  {
+    "op": "core/row-star",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AssetCheck",
+          "expression": "value",
+          "columnName": "AssetCheck",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Match",
+                "l": "Match"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "starred": true,
+    "description": "Star rows"
+  },
+  {
+    "op": "core/row-star",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ItemCheck",
+          "expression": "value",
+          "columnName": "ItemCheck",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Match",
+                "l": "Match"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "starred": true,
+    "description": "Star rows"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "AssetCheck",
+    "description": "Remove column AssetCheck"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "ItemCheck",
+    "description": "Remove column ItemCheck"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-star",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "starred": false,
+    "description": "Unstar rows"
+  },
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "_pid",
+      "_digital_object_type.string_key",
+      "_identifiers-1",
+      "copyright_note-1:copyright_note_value"
+    ],
+    "description": "Reorder columns"
+  },
+{
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "_digital_object_type.string_key",
+          "expression": "value",
+          "columnName": "_digital_object_type.string_key",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "item",
+                "l": "item"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "copyright_note-1:copyright_note_value",
+          "expression": "isBlank(value)",
+          "columnName": "copyright_note-1:copyright_note_value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "copyright_note-1:copyright_note_value",
+    "expression": "grel:'This digital reproduction is intended to support research, teaching, and private study. Users are responsible for determining any copyright questions'",
+    "onError": "set-to-blank",
+    "newColumnName": "copyright_note-2:copyright_note_value",
+    "columnInsertIndex": 4,
+    "description": "Create column copyright_note-2:copyright_note_value at index 4 based on column copyright_note-1:copyright_note_value using expression grel:'This digital reproduction is intended to support research, teaching, and private study. Users are responsible for determining any copyright questions'"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "_digital_object_type.string_key",
+          "expression": "value",
+          "columnName": "_digital_object_type.string_key",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "item",
+                "l": "item"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "copyright_note-1:copyright_note_value",
+          "expression": "isBlank(value)",
+          "columnName": "copyright_note-1:copyright_note_value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "copyright_note-1:copyright_note_value",
+    "expression": "grel:'This digital reproduction is intended to support research, teaching, and private study. Users are responsible for determining any copyright questions'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column copyright_note-1:copyright_note_value using expression grel:'This digital reproduction is intended to support research, teaching, and private study. Users are responsible for determining any copyright questions'"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "copyright_note-1:copyright_note_value",
+    "expression": "grel:'TRUE'",
+    "onError": "set-to-blank",
+    "newColumnName": "_publish",
+    "columnInsertIndex": 4,
+    "description": "Create column _publish at index 4 based on column copyright_note-1:copyright_note_value using expression grel:'TRUE'"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "_publish",
+    "expression": "grel:'dlc_catalog_staging'",
+    "onError": "set-to-blank",
+    "newColumnName": "_publish_targets-1.string_key",
+    "columnInsertIndex": 5,
+    "description": "Create column _publish_targets-1.string_key at index 5 based on column _publish using expression grel:'dlc_catalog_staging'"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "_digital_object_type.string_key",
+    "description": "Remove column _digital_object_type.string_key"
+  }
+]
