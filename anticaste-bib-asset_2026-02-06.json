@@ -1,0 +1,380 @@
+[
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Sequence no.",
+    "newColumnName": "_project.string_key",
+    "description": "Rename column Sequence no. to _project.string_key"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_project.string_key",
+    "expression": "grel:'anticaste'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column _project.string_key using expression grel:'anticaste'"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Level",
+    "newColumnName": "_digital_object_type.string_key",
+    "description": "Rename column Level to _digital_object_type.string_key"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "_import_file.main.original_file_path",
+    "expression": "grel:value.replace(/.+\\/(.+)\\.tif/,'$1')",
+    "onError": "set-to-blank",
+    "newColumnName": "_identifiers-1",
+    "columnInsertIndex": 3,
+    "description": "Create column _identifiers-1 at index 3 based on column _import_file.main.original_file_path using expression grel:value.replace(/.+\\/(.+)\\.tif/,'$1')"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "_identifiers-1",
+          "columnName": "_identifiers-1",
+          "query": "Colorchecker",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Asset Title \n (Page 1 or Recto/Verso, etc)",
+    "newColumnName": "title-1:title_sort_portion",
+    "description": "Rename column Asset Title \n (Page 1 or Recto/Verso, etc) to title-1:title_sort_portion"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Digital folder name \n (This needs to be exactly the same as it appears on the hard drive(s))",
+    "newColumnName": "MatchPoint",
+    "description": "Rename column Digital folder name \n (This needs to be exactly the same as it appears on the hard drive(s)) to MatchPoint"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Extent and format of digital copies \n (number of TIFF images, size in megabytes )",
+    "description": "Remove column Extent and format of digital copies \n (number of TIFF images, size in megabytes )"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Notes on quality and contents \n (e.g. damage)",
+    "expression": "grel:'Note on quality and contents: ' + value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Notes on quality and contents \n (e.g. damage) using expression grel:'Note on quality and contents: ' + value"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Notes on quality and contents \n (e.g. damage)",
+    "newColumnName": "note-1:note_value",
+    "description": "Rename column Notes on quality and contents \n (e.g. damage) to note-1:note_value"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Note",
+    "newColumnName": "note-2:note_value",
+    "description": "Rename column Note to note-2:note_value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Digitization Date",
+    "expression": "grel:'Date digitized: ' + value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Digitization Date using expression grel:'Date digitized: ' + value"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Digitization Date",
+    "newColumnName": "internal_note-1:internal_note_value",
+    "description": "Rename column Digitization Date to internal_note-1:internal_note_value"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "MatchPoint",
+    "expression": "grel:join(uniques(cell.cross('Items','024').cells['Restrictions on Access'].value),'|')",
+    "onError": "set-to-blank",
+    "newColumnName": "restriction_on_access-1:restriction_on_access_value",
+    "columnInsertIndex": 8,
+    "description": "Create column restriction_on_access-1:restriction_on_access_value at index 8 based on column MatchPoint using expression grel:join(uniques(cell.cross('Items','024').cells['Restrictions on Access'].value),'|')"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "MatchPoint",
+    "expression": "grel:join(uniques(cell.cross('Items','024').cells['Embargo Release Date'].value),'|')",
+    "onError": "set-to-blank",
+    "newColumnName": "restriction_on_access-1:restriction_on_access_embargo_date",
+    "columnInsertIndex": 8,
+    "description": "Create column restriction_on_access-1:restriction_on_access_embargo_date at index 8 based on column MatchPoint using expression grel:join(uniques(cell.cross('Items','024').cells['Embargo Release Date'].value),'|')"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "MatchPoint",
+    "expression": "grel:join(uniques(cell.cross('Items','024').cells['Notes (Rights)'].value),'|')",
+    "onError": "set-to-blank",
+    "newColumnName": "copyright_note-1:copyright_note_value",
+    "columnInsertIndex": 8,
+    "description": "Create column copyright_note-1:copyright_note_value at index 8 based on column MatchPoint using expression grel:join(uniques(cell.cross('Items','024').cells['Notes (Rights)'].value),'|')"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "MatchPoint",
+    "expression": "grel:join(uniques(cell.cross('Items','024').cells['Copyright status statement'].value),'|')",
+    "onError": "set-to-blank",
+    "newColumnName": "use_and_reproduction-1:use_and_reproduction_term.value",
+    "columnInsertIndex": 8,
+    "description": "Create column use_and_reproduction-1:use_and_reproduction_term.value at index 8 based on column MatchPoint using expression grel:join(uniques(cell.cross('Items','024').cells['Copyright status statement'].value),'|')"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "use_and_reproduction-1:use_and_reproduction_term.value",
+    "expression": "grel:'rightsstatements'",
+    "onError": "set-to-blank",
+    "newColumnName": "use_and_reproduction-1:use_and_reproduction_term.authority",
+    "columnInsertIndex": 9,
+    "description": "Create column use_and_reproduction-1:use_and_reproduction_term.authority at index 9 based on column use_and_reproduction-1:use_and_reproduction_term.value using expression grel:'rightsstatements'"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "use_and_reproduction-1:use_and_reproduction_term.value",
+          "expression": "value",
+          "columnName": "use_and_reproduction-1:use_and_reproduction_term.value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "No Copyright - United States",
+                "l": "No Copyright - United States"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "use_and_reproduction-1:use_and_reproduction_term.uri",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "https://rightsstatements.org/vocab/NoC-US/1.0/"
+      }
+    ],
+    "description": "Mass edit cells in column use_and_reproduction-1:use_and_reproduction_term.uri"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "use_and_reproduction-1:use_and_reproduction_term.value",
+          "expression": "value",
+          "columnName": "use_and_reproduction-1:use_and_reproduction_term.value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Copyright Undetermined",
+                "l": "Copyright Undetermined"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "use_and_reproduction-1:use_and_reproduction_term.uri",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "https://rightsstatements.org/vocab/UND/1.0/"
+      }
+    ],
+    "description": "Mass edit cells in column use_and_reproduction-1:use_and_reproduction_term.uri"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "use_and_reproduction-1:use_and_reproduction_term.value",
+          "expression": "value",
+          "columnName": "use_and_reproduction-1:use_and_reproduction_term.value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "In Copyright",
+                "l": "In Copyright"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "use_and_reproduction-1:use_and_reproduction_term.uri",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "https://rightsstatements.org/vocab/InC/1.0/"
+      }
+    ],
+    "description": "Mass edit cells in column use_and_reproduction-1:use_and_reproduction_term.uri"
+  },
+   {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "use_and_reproduction-1:use_and_reproduction_term.value",
+          "expression": "value",
+          "columnName": "use_and_reproduction-1:use_and_reproduction_term.value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "In Copyright - Rights-Holder(s) Unlocatable or Unidentifiable",
+                "l": "In Copyright - Rights-Holder(s) Unlocatable or Unidentifiable"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "use_and_reproduction-1:use_and_reproduction_term.uri",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "https://rightsstatements.org/vocab/InC-RUU/1.0/"
+      }
+    ],
+    "description": "Mass edit cells in column use_and_reproduction-1:use_and_reproduction_term.uri"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "MatchPoint",
+    "expression": "grel:'clio' + join(uniques(cell.cross('Items','024').cells['001'].value),'|')",
+    "onError": "set-to-blank",
+    "newColumnName": "_parent_digital_objects-1.identifier",
+    "columnInsertIndex": 8,
+    "description": "Create column _parent_digital_objects-1.identifier at index 8 based on column MatchPoint using expression grel:join(uniques(cell.cross('Items','024').cells['001'].value),'|')"
+  },
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "_project.string_key",
+      "_digital_object_type.string_key",
+      "_identifiers-1",
+      "_parent_digital_objects-1.identifier",
+      "_import_file.main.original_file_path",
+      "_import_file.main.import_location",
+      "_import_file.main.import_type",
+      "copyright_note-1:copyright_note_value",
+      "internal_note-1:internal_note_value",
+      "note-1:note_value",
+      "note-2:note_value",
+      "restriction_on_access-1:restriction_on_access_value",
+      "restriction_on_access-1:restriction_on_access_embargo_date",
+      "title-1:title_sort_portion",
+      "use_and_reproduction-1:use_and_reproduction_term.value",
+      "use_and_reproduction-1:use_and_reproduction_term.authority",
+      "use_and_reproduction-1:use_and_reproduction_term.uri"
+    ],
+    "description": "Reorder columns"
+  }
+]

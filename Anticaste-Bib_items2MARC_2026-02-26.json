@@ -1,0 +1,5902 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Filename or identifier",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Filename or identifier using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Format (Required)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Format (Required) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Issuance (Required)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Issuance (Required) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ISBN",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ISBN using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ISSN",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ISSN using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Initial article of title proper",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Initial article of title proper using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Title proper (Transliterated if non-Latin) (Required)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Title proper (Transliterated if non-Latin) (Required) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Parallel title (Transliterated if non-Latin)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Parallel title (Transliterated if non-Latin) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Subtitle (Transliterated if non-Latin)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Subtitle (Transliterated if non-Latin) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Statement of responsibility (Transliterated if non-Latin)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Statement of responsibility (Transliterated if non-Latin) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Title in original script",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Title in original script using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Parallel title in original script",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Parallel title in original script using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Subtitle in original script",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Subtitle in original script using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Statement of responsibility in original script",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Statement of responsibility in original script using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country of publication (code) (Required)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Country of publication (code) (Required) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place of publication (transliterated if non-Latin script)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Place of publication (transliterated if non-Latin script) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Publisher (transliterated if non-Latin script)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Publisher (transliterated if non-Latin script) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place of publication (original script)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Place of publication (original script) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Publisher (original script)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Publisher (original script) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Dates of original material (Required)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Dates of original material (Required) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Formatted dates (Required)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Formatted dates (Required) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Number of pages and type of unit",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Number of pages and type of unit using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Source of description note (serials only)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Source of description note (serials only) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Publication frequency (serials only)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Publication frequency (serials only) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Edition statement (transliterated if non-Latin script)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Edition statement (transliterated if non-Latin script) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Edition statement (original script)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Edition statement (original script) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Series statement (transliterated if non-Latin script)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Series statement (transliterated if non-Latin script) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Series statement (original script)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Series statement (original script) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Languages of the material (note)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Languages of the material (note) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Languages of the material (code) (Required)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Languages of the material (code) (Required) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Scripts of materials (e.g. Latin, Cyrillic, Greek, Coptic, Arabic)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Scripts of materials (e.g. Latin, Cyrillic, Greek, Coptic, Arabic) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Description (scope and content)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Description (scope and content) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Note",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Note using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Custodial history",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Custodial history using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Keywords (Optional)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Keywords (Optional) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Topical Subjects",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Topical Subjects using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Geographic subject",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Geographic subject using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Personal Name subject",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Personal Name subject using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Corporate Name subject",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Corporate Name subject using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Form/genre",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Form/genre using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Personal name (authorized form)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Personal name (authorized form) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Corporate name (authorized form)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Corporate name (authorized form) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Personal name (original script)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Personal name (original script) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Corporate name (original script)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Corporate name (original script) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Owner_personal",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Owner_personal using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Owner_coprorate",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Owner_coprorate using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Collection title",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Collection title using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Date of cataloging",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Date of cataloging using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Published",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Published using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Copyright status statement (Required)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Copyright status statement (Required) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Notes (Rights)\n(optional)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Notes (Rights)\n(optional) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Attribution of rights \n(optional)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Attribution of rights \n(optional) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Restrictions on Access\n(Required)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Restrictions on Access\n(Required) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Embargo Release Date\n(Required if item is embargoed)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Embargo Release Date\n(Required if item is embargoed) using expression value.trim()"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Format (Required)",
+          "columnName": "Format (Required)",
+          "query": "Choose one the options from the dropdown menu",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Item nos.",
+    "newColumnName": "LDR",
+    "description": "Rename column Item nos. to LDR"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Copyright status statement (Required)",
+    "newColumnName": "Copyright status statement",
+    "description": "Rename column Copyright status statement (Required) to Copyright status statement"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Notes (Rights)\n(optional)",
+    "newColumnName": "Notes-Rights",
+    "description": "Rename column Notes (Rights)\n(optional) to Notes-Rights"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Attribution of rights \n(optional)",
+    "newColumnName": "Attribution of rights",
+    "description": "Rename column Attribution of rights \n(optional) to Attribution of rights"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Restrictions on Access\n(Required)",
+    "newColumnName": "Restrictions on Access",
+    "description": "Rename column Restrictions on Access\n(Required) to Restrictions on Access"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Embargo Release Date\n(Required if item is embargoed)",
+    "newColumnName": "Embargo Release Date",
+    "description": "Rename column Embargo Release Date\n(Required if item is embargoed) to Embargo Release Date"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "LDR",
+    "expression": "grel:null",
+    "onError": "set-to-blank",
+    "newColumnName": "008",
+    "columnInsertIndex": 1,
+    "description": "Create column 008 at index 1 based on column LDR using expression grel:null"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Filename or identifier",
+    "newColumnName": "024",
+    "description": "Rename column Filename or identifier to 024"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LDR",
+    "expression": "grel:null",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LDR using expression grel:null"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Keywords (Optional)",
+    "expression": "grel:value.replace('|','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Keywords (Optional) using expression grel:value.replace('|','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Form/genre",
+    "expression": "grel:value.replace('|','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Form/genre using expression grel:value.replace('|','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Corporate Name subject",
+    "expression": "grel:value.replace('|','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Corporate Name subject using expression grel:value.replace('|','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Personal Name subject",
+    "expression": "grel:value.replace('|','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Personal Name subject using expression grel:value.replace('|','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Geographic subject",
+    "expression": "grel:value.replace('|','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Geographic subject using expression grel:value.replace('|','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Topical Subjects",
+    "expression": "grel:value.replace('|','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Topical Subjects using expression grel:value.replace('|','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Corporate name (original script)",
+    "expression": "grel:value.replace('|','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Corporate name (original script) using expression grel:value.replace('|','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Personal name (original script)",
+    "expression": "grel:value.replace('|','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Personal name (original script) using expression grel:value.replace('|','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Corporate name (authorized form)",
+    "expression": "grel:value.replace('|','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Corporate name (authorized form) using expression grel:value.replace('|','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Personal name (authorized form)",
+    "expression": "grel:value.replace('|','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Personal name (authorized form) using expression grel:value.replace('|','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Owner_coprorate",
+    "expression": "grel:value.replace('|','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Owner_coprorate using expression grel:value.replace('|','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Owner_personal",
+    "expression": "grel:value.replace('|','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Owner_personal using expression grel:value.replace('|','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Topical Subjects",
+    "expression": "grel:value.replace('‡','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Topical Subjects using expression grel:value.replace('‡','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Personal name (authorized form)",
+    "expression": "grel:value.replace('‡','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Personal name (authorized form) using expression grel:value.replace('‡','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Corporate Name subject",
+    "expression": "grel:value.replace('‡','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Corporate Name subject using expression grel:value.replace('‡','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Personal Name subject",
+    "expression": "grel:value.replace('‡','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Personal Name subject using expression grel:value.replace('‡','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Form/genre",
+    "expression": "grel:value.replace('‡','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Form/genre using expression grel:value.replace('‡','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Geographic subject",
+    "expression": "grel:value.replace('‡','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Geographic subject using expression grel:value.replace('‡','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Owner_coprorate",
+    "expression": "grel:value.replace('‡','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Owner_coprorate using expression grel:value.replace('‡','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Owner_personal",
+    "expression": "grel:value.replace('‡','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Owner_personal using expression grel:value.replace('‡','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Corporate name (authorized form)",
+    "expression": "grel:value.replace('‡','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Corporate name (authorized form) using expression grel:value.replace('‡','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Parallel title (Transliterated if non-Latin)",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Parallel title (Transliterated if non-Latin) using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place of publication (transliterated if non-Latin script)",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Place of publication (transliterated if non-Latin script) using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ISBN",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ISBN using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Title proper (Transliterated if non-Latin) (Required)",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Title proper (Transliterated if non-Latin) (Required) using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ISSN",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ISSN using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Edition statement (transliterated if non-Latin script)",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Edition statement (transliterated if non-Latin script) using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Description (scope and content)",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Description (scope and content) using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Note",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Note using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Series statement (transliterated if non-Latin script)",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Series statement (transliterated if non-Latin script) using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Publication frequency (serials only)",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Publication frequency (serials only) using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Number of pages and type of unit",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Number of pages and type of unit using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Scripts of materials (e.g. Latin, Cyrillic, Greek, Coptic, Arabic)",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Scripts of materials (e.g. Latin, Cyrillic, Greek, Coptic, Arabic) using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Languages of the material (note)",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Languages of the material (note) using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Source of description note (serials only)",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Source of description note (serials only) using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Topical Subjects",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Topical Subjects using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Personal Name subject",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Personal Name subject using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Geographic subject",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Geographic subject using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Form/genre",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Form/genre using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Owner_personal",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Owner_personal using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Personal name (authorized form)",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Personal name (authorized form) using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Keywords (Optional)",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Keywords (Optional) using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Parallel title in original script",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Parallel title in original script using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place of publication (original script)",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Place of publication (original script) using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Title in original script",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Title in original script using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Corporate name (authorized form)",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Corporate name (authorized form) using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Owner_coprorate",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Owner_coprorate using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Collection title",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Collection title using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Series statement (original script)",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Series statement (original script) using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Personal name (original script)",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Personal name (original script) using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Corporate name (original script)",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Corporate name (original script) using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Edition statement (original script)",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Edition statement (original script) using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Corporate Name subject",
+    "expression": "grel:value.replace('ǂ','$')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Corporate Name subject using expression grel:value.replace('ǂ','$')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Edition statement (transliterated if non-Latin script)",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Edition statement (transliterated if non-Latin script) using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place of publication (transliterated if non-Latin script)",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Place of publication (transliterated if non-Latin script) using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Title proper (Transliterated if non-Latin) (Required)",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Title proper (Transliterated if non-Latin) (Required) using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ISSN",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ISSN using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Parallel title (Transliterated if non-Latin)",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Parallel title (Transliterated if non-Latin) using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ISBN",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ISBN using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Description (scope and content)",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Description (scope and content) using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Note",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Note using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Series statement (transliterated if non-Latin script)",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Series statement (transliterated if non-Latin script) using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Publication frequency (serials only)",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Publication frequency (serials only) using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Number of pages and type of unit",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Number of pages and type of unit using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Scripts of materials (e.g. Latin, Cyrillic, Greek, Coptic, Arabic)",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Scripts of materials (e.g. Latin, Cyrillic, Greek, Coptic, Arabic) using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Languages of the material (note)",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Languages of the material (note) using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Source of description note (serials only)",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Source of description note (serials only) using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Topical Subjects",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Topical Subjects using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Personal Name subject",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Personal Name subject using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Corporate Name subject",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Corporate Name subject using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Geographic subject",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Geographic subject using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Keywords (Optional)",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Keywords (Optional) using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Owner_coprorate",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Owner_coprorate using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Owner_personal",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Owner_personal using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Corporate name (authorized form)",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Corporate name (authorized form) using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Personal name (authorized form)",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Personal name (authorized form) using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Form/genre",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Form/genre using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Personal name (original script)",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Personal name (original script) using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place of publication (original script)",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Place of publication (original script) using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Edition statement (original script)",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Edition statement (original script) using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Parallel title in original script",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Parallel title in original script using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Title in original script",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Title in original script using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Series statement (original script)",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Series statement (original script) using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Corporate name (original script)",
+    "expression": "grel:value.replace(/ (\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Corporate name (original script) using expression grel:value.replace(/ (\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ISBN",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ISBN using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place of publication (transliterated if non-Latin script)",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Place of publication (transliterated if non-Latin script) using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Edition statement (transliterated if non-Latin script)",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Edition statement (transliterated if non-Latin script) using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Parallel title (Transliterated if non-Latin)",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Parallel title (Transliterated if non-Latin) using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Title proper (Transliterated if non-Latin) (Required)",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Title proper (Transliterated if non-Latin) (Required) using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ISSN",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ISSN using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Scripts of materials (e.g. Latin, Cyrillic, Greek, Coptic, Arabic)",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Scripts of materials (e.g. Latin, Cyrillic, Greek, Coptic, Arabic) using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Description (scope and content)",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Description (scope and content) using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Note",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Note using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Publication frequency (serials only)",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Publication frequency (serials only) using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Number of pages and type of unit",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Number of pages and type of unit using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Personal Name subject",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Personal Name subject using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Corporate Name subject",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Corporate Name subject using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Source of description note (serials only)",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Source of description note (serials only) using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Languages of the material (note)",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Languages of the material (note) using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Topical Subjects",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Topical Subjects using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Owner_personal",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Owner_personal using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Form/genre",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Form/genre using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Keywords (Optional)",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Keywords (Optional) using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Personal name (authorized form)",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Personal name (authorized form) using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Geographic subject",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Geographic subject using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Series statement (original script)",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Series statement (original script) using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place of publication (original script)",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Place of publication (original script) using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Edition statement (original script)",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Edition statement (original script) using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Series statement (transliterated if non-Latin script)",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Series statement (transliterated if non-Latin script) using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Owner_coprorate",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Owner_coprorate using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Title in original script",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Title in original script using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Corporate name (authorized form)",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Corporate name (authorized form) using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Parallel title in original script",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Parallel title in original script using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Personal name (original script)",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Personal name (original script) using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Corporate name (original script)",
+    "expression": "grel:value.replace(/(\\$.) /,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Corporate name (original script) using expression grel:value.replace(/(\\$.) /,'$1')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Parallel title (Transliterated if non-Latin)",
+          "expression": "isBlank(value)",
+          "columnName": "Parallel title (Transliterated if non-Latin)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Subtitle (Transliterated if non-Latin)",
+          "expression": "isBlank(value)",
+          "columnName": "Subtitle (Transliterated if non-Latin)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Title proper (Transliterated if non-Latin) (Required)",
+    "expression": "grel:value + ' :$b' + cells['Subtitle (Transliterated if non-Latin)'].value + ' = ' + cells['Parallel title (Transliterated if non-Latin)'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Title proper (Transliterated if non-Latin) (Required) using expression grel:value + ' :$b' + cells['Subtitle (Transliterated if non-Latin)'].value + ' = ' + cells['Parallel title (Transliterated if non-Latin)'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Parallel title (Transliterated if non-Latin)",
+          "expression": "isBlank(value)",
+          "columnName": "Parallel title (Transliterated if non-Latin)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Subtitle (Transliterated if non-Latin)",
+          "expression": "isBlank(value)",
+          "columnName": "Subtitle (Transliterated if non-Latin)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Title in original script",
+    "expression": "grel:value + ' :$b' + cells['Subtitle in original script'].value + ' = ' + cells['Parallel title in original script'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Title in original script using expression grel:value + ' :$b' + cells['Subtitle in original script'].value + ' = ' + cells['Parallel title in original script'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Parallel title (Transliterated if non-Latin)",
+          "expression": "isBlank(value)",
+          "columnName": "Parallel title (Transliterated if non-Latin)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Subtitle (Transliterated if non-Latin)",
+          "expression": "isBlank(value)",
+          "columnName": "Subtitle (Transliterated if non-Latin)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Title proper (Transliterated if non-Latin) (Required)",
+    "expression": "grel:value + ' :$b' + cells['Subtitle (Transliterated if non-Latin)'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Title proper (Transliterated if non-Latin) (Required) using expression grel:value + ' :$b' + cells['Subtitle (Transliterated if non-Latin)'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Parallel title (Transliterated if non-Latin)",
+          "expression": "isBlank(value)",
+          "columnName": "Parallel title (Transliterated if non-Latin)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Subtitle (Transliterated if non-Latin)",
+          "expression": "isBlank(value)",
+          "columnName": "Subtitle (Transliterated if non-Latin)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Title in original script",
+    "expression": "grel:value + ' :$b' + cells['Subtitle in original script'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Title in original script using expression grel:value + ' :$b' + cells['Subtitle in original script'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Parallel title (Transliterated if non-Latin)",
+          "expression": "isBlank(value)",
+          "columnName": "Parallel title (Transliterated if non-Latin)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Subtitle (Transliterated if non-Latin)",
+          "expression": "isBlank(value)",
+          "columnName": "Subtitle (Transliterated if non-Latin)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Title proper (Transliterated if non-Latin) (Required)",
+    "expression": "grel:value + ' =$b' + cells['Parallel title (Transliterated if non-Latin)'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Title proper (Transliterated if non-Latin) (Required) using expression grel:value + ' =$b' + cells['Parallel title (Transliterated if non-Latin)'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Parallel title (Transliterated if non-Latin)",
+          "expression": "isBlank(value)",
+          "columnName": "Parallel title (Transliterated if non-Latin)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Subtitle (Transliterated if non-Latin)",
+          "expression": "isBlank(value)",
+          "columnName": "Subtitle (Transliterated if non-Latin)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Title in original script",
+    "expression": "grel:value + ' =$b' + cells['Parallel title in original script'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Title in original script using expression grel:value + ' =$b' + cells['Parallel title in original script'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Statement of responsibility (Transliterated if non-Latin)",
+          "expression": "isBlank(value)",
+          "columnName": "Statement of responsibility (Transliterated if non-Latin)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Title proper (Transliterated if non-Latin) (Required)",
+    "expression": "grel:value + ' /$c' + cells['Statement of responsibility (Transliterated if non-Latin)'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Title proper (Transliterated if non-Latin) (Required) using expression grel:value + ' /$c' + cells['Statement of responsibility (Transliterated if non-Latin)'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Statement of responsibility (Transliterated if non-Latin)",
+          "expression": "isBlank(value)",
+          "columnName": "Statement of responsibility (Transliterated if non-Latin)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Title in original script",
+    "expression": "grel:value + ' /$c' + cells['Statement of responsibility in original script'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Title in original script using expression grel:value + ' /$c' + cells['Statement of responsibility in original script'].value"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place of publication (transliterated if non-Latin script)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "[Place of publication not identified]"
+      }
+    ],
+    "description": "Mass edit cells in column Place of publication (transliterated if non-Latin script)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Publisher (transliterated if non-Latin script)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "[publisher not identified]"
+      }
+    ],
+    "description": "Mass edit cells in column Publisher (transliterated if non-Latin script)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Place of publication (original script)",
+          "expression": "isBlank(value)",
+          "columnName": "Place of publication (original script)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Publisher (original script)",
+          "expression": "isBlank(value)",
+          "columnName": "Publisher (original script)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Place of publication (original script)",
+    "expression": "grel:'[Place of publication not identified]'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Place of publication (original script) using expression grel:'[Place of publication not identified]'"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Place of publication (original script)",
+          "expression": "isBlank(value)",
+          "columnName": "Place of publication (original script)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Publisher (original script)",
+          "expression": "isBlank(value)",
+          "columnName": "Publisher (original script)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Publisher (original script)",
+    "expression": "grel:'[publisher not identified]'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Publisher (original script) using expression grel:'[publisher not identified]'"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Dates of original material (Required)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "[date of publication not identified]"
+      }
+    ],
+    "description": "Mass edit cells in column Dates of original material (Required)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place of publication (transliterated if non-Latin script)",
+    "expression": "grel:value + ' :$b' + cells['Publisher (transliterated if non-Latin script)'].value + ',$c' + cells['Dates of original material (Required)'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Place of publication (transliterated if non-Latin script) using expression grel:value + ' :$b' + cells['Publisher (transliterated if non-Latin script)'].value + ',$c' + cells['Dates of original material (Required)'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Place of publication (original script)",
+    "expression": "grel:value + ' :$b' + cells['Publisher (original script)'].value + ',$c' + cells['Dates of original material (Required)'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Place of publication (original script) using expression grel:value + ' :$b' + cells['Publisher (original script)'].value + ',$c' + cells['Dates of original material (Required)'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LDR",
+    "expression": "grel:cells['Format (Required)'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LDR using expression grel:cells['Format (Required)'].value"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LDR",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Language material"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "a"
+      }
+    ],
+    "description": "Mass edit cells in column LDR"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LDR",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Notated music"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "c"
+      }
+    ],
+    "description": "Mass edit cells in column LDR"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LDR",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cartographic material"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "e"
+      }
+    ],
+    "description": "Mass edit cells in column LDR"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LDR",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Two-dimensional nonprojectable graphic"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "k"
+      }
+    ],
+    "description": "Mass edit cells in column LDR"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LDR",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Projected medium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "g"
+      }
+    ],
+    "description": "Mass edit cells in column LDR"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Issuance (Required)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Monograph"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "m"
+      }
+    ],
+    "description": "Mass edit cells in column Issuance (Required)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Issuance (Required)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Serial"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "s"
+      }
+    ],
+    "description": "Mass edit cells in column Issuance (Required)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LDR",
+    "expression": "grel:'     n' + value + cells['Issuance (Required)'].value + ' a22     3i 4500'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column LDR using expression grel:'     n' + value + cells['Issuance (Required)'].value + ' a22     3i 4500'"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Format (Required)",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "006",
+    "columnInsertIndex": 3,
+    "description": "Create column 006 at index 3 based on column Format (Required) using expression grel:value"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "006",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Language material"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "d"
+      }
+    ],
+    "description": "Mass edit cells in column 006"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "006",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cartographic material"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "c"
+      }
+    ],
+    "description": "Mass edit cells in column 006"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "006",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Two-dimensional nonprojectable graphic"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "c"
+      }
+    ],
+    "description": "Mass edit cells in column 006"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "006",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "slides"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "c"
+      }
+    ],
+    "description": "Mass edit cells in column 006"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "006",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Projected medium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "c"
+      }
+    ],
+    "description": "Mass edit cells in column 006"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "006",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Notated music"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "c"
+      }
+    ],
+    "description": "Mass edit cells in column 006"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "006",
+    "expression": "grel:'m     o  ' + value + '        '",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 006 using expression grel:'m     o  ' + value + '        '"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "006",
+    "expression": "grel:'cr cn ---mpabp'",
+    "onError": "set-to-blank",
+    "newColumnName": "007",
+    "columnInsertIndex": 4,
+    "description": "Create column 007 at index 4 based on column 006 using expression grel:'cr cn ---mpabp'"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "008",
+    "expression": "grel:cells['Issuance (Required)'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 008 using expression grel:cells['Issuance (Required)'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "008",
+          "expression": "value",
+          "columnName": "008",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "s",
+                "l": "s"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "Formatted dates (Required)",
+          "columnName": "Formatted dates (Required)",
+          "query": ";9999",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "008",
+    "expression": "grel:'c'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 008 using expression grel:'c'"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "008",
+          "expression": "value",
+          "columnName": "008",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "s",
+                "l": "s"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "text",
+          "name": "Formatted dates (Required)",
+          "columnName": "Formatted dates (Required)",
+          "query": ";9999",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "008",
+    "expression": "grel:'d'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 008 using expression grel:'d'"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Formatted dates (Required)",
+          "columnName": "Formatted dates (Required)",
+          "query": ";",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "008",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "m"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "s"
+      }
+    ],
+    "description": "Mass edit cells in column 008"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Formatted dates (Required)",
+          "columnName": "Formatted dates (Required)",
+          "query": ";",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Formatted dates (Required)",
+    "expression": "grel:value.replace(/(.+)/,'$1    ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Formatted dates (Required) using expression grel:value.replace(/(.+)/,'$1    ')"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Formatted dates (Required)",
+          "expression": "isBlank(value)",
+          "columnName": "Formatted dates (Required)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Formatted dates (Required)",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "    "
+      }
+    ],
+    "description": "Mass edit cells in column Formatted dates (Required)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Formatted dates (Required)",
+    "expression": "grel:value.replace(';','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Formatted dates (Required) using expression grel:value.replace(';','')"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Format (Required)",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "008-Type",
+    "columnInsertIndex": 3,
+    "description": "Create column 008-Type at index 3 based on column Format (Required) using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Issuance (Required)",
+          "expression": "value",
+          "columnName": "Issuance (Required)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "s",
+                "l": "s"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "008-Type",
+    "expression": "grel:'Continuing resource'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 008-Type using expression grel:'Continuing resource'"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Issuance (Required)",
+          "expression": "value",
+          "columnName": "Issuance (Required)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "m",
+                "l": "m"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "008-Type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cartographic material"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Maps"
+      }
+    ],
+    "description": "Mass edit cells in column 008-Type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Issuance (Required)",
+          "expression": "value",
+          "columnName": "Issuance (Required)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "m",
+                "l": "m"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "008-Type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Language material"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Books"
+      }
+    ],
+    "description": "Mass edit cells in column 008-Type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Issuance (Required)",
+          "expression": "value",
+          "columnName": "Issuance (Required)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "m",
+                "l": "m"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "008-Type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Notated music"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Music"
+      }
+    ],
+    "description": "Mass edit cells in column 008-Type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Issuance (Required)",
+          "expression": "value",
+          "columnName": "Issuance (Required)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "m",
+                "l": "m"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "008-Type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Projected medium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Visual materials"
+      }
+    ],
+    "description": "Mass edit cells in column 008-Type"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Issuance (Required)",
+          "expression": "value",
+          "columnName": "Issuance (Required)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "m",
+                "l": "m"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "008-Type",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Two-dimensional nonprojectable graphic"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Visual materials"
+      }
+    ],
+    "description": "Mass edit cells in column 008-Type"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Languages of the material (code) (Required)",
+    "expression": "grel:value.replace(/;.+/,'')",
+    "onError": "set-to-blank",
+    "newColumnName": "008-Lang",
+    "columnInsertIndex": 34,
+    "description": "Create column 008-Lang at index 34 based on column Languages of the material (code) (Required) using expression grel:value.replace(/;.+/,'')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country of publication (code) (Required)",
+    "expression": "grel:value.replace(/[- ]/,'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Country of publication (code) (Required) using expression grel:value.replace(/[- ]/,'')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country of publication (code) (Required)",
+    "expression": "grel:value.replace(/;.+/,'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Country of publication (code) (Required) using expression grel:value.replace(/;.+/,'')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country of publication (code) (Required)",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Country of publication (code) (Required) using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "008-Type",
+          "expression": "value",
+          "columnName": "008-Type",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Books",
+                "l": "Books"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "008",
+    "expression": "grel:toString(now(),'YYMMdd') + value + cells['Formatted dates (Required)'].value + cells['Country of publication (code) (Required)'].value + '      o     000 0 ' + cells['008-Lang'].value + ' d'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 008 using expression grel:toString(now(),'YYMMdd') + value + cells['Formatted dates (Required)'].value + cells['Country of publication (code) (Required)'].value + '      o     000 0 ' + cells['008-Lang'].value + ' d'"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "008-Type",
+          "expression": "value",
+          "columnName": "008-Type",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Continuing resource",
+                "l": "Continuing resource"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "008",
+    "expression": "grel:toString(now(),'YYMMdd') + value + cells['Formatted dates (Required)'].value + cells['Country of publication (code) (Required)'].value + '    p o     0    0' + cells['008-Lang'].value + ' d'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 008 using expression grel:toString(now(),'YYMMdd') + value + cells['Formatted dates (Required)'].value + cells['Country of publication (code) (Required)'].value + '    p o     0    0' + cells['008-Lang'].value + ' d'"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "008-Type",
+          "expression": "value",
+          "columnName": "008-Type",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Maps",
+                "l": "Maps"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "008",
+    "expression": "grel:toString(now(),'YYMMdd') + value + cells['Formatted dates (Required)'].value + cells['Country of publication (code) (Required)'].value + ' |||||| |  |o | ||' + cells['008-Lang'].value + ' d'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 008 using expression grel:toString(now(),'YYMMdd') + value + cells['Formatted dates (Required)'].value + cells['Country of publication (code) (Required)'].value + ' |||||| |  |o | ||' + cells['008-Lang'].value + ' d'"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "008-Type",
+          "expression": "value",
+          "columnName": "008-Type",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Visual materials",
+                "l": "Visual materials"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "008",
+    "expression": "grel:toString(now(),'YYMMdd') + value + cells['Formatted dates (Required)'].value + cells['Country of publication (code) (Required)'].value + ' nnn       |o   |n' + cells['008-Lang'].value + ' d'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 008 using expression grel:toString(now(),'YYMMdd') + value + cells['Formatted dates (Required)'].value + cells['Country of publication (code) (Required)'].value + ' nnn       |o   |n' + cells['008-Lang'].value + ' d'"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "008-Type",
+          "expression": "value",
+          "columnName": "008-Type",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Music",
+                "l": "Music"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "008",
+    "expression": "grel:toString(now(),'YYMMdd') + value + cells['Formatted dates (Required)'].value + cells['Country of publication (code) (Required)'].value + ' |||| o|||||||| | ' + cells['008-Lang'].value + ' d'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 008 using expression grel:toString(now(),'YYMMdd') + value + cells['Formatted dates (Required)'].value + cells['Country of publication (code) (Required)'].value + ' |||| o|||||||| | ' + cells['008-Lang'].value + ' d'"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Languages of the material (code) (Required)",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "041",
+    "columnInsertIndex": 16,
+    "description": "Create column 041 at index 16 based on column Languages of the material (note) using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "041",
+          "columnName": "041",
+          "query": ";",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "041",
+    "expression": "grel:null",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 041 using expression grel:null"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Languages of the material (note)",
+    "expression": "grel:value + ';$b' + cells['Scripts of materials (e.g. Latin, Cyrillic, Greek, Coptic, Arabic)'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Languages of the material (note) using expression grel:value + ';$b' + cells['Scripts of materials (e.g. Latin, Cyrillic, Greek, Coptic, Arabic)'].value"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "ISSN",
+    "expression": "grel:'ZCU$beng$erda$cZCU'",
+    "onError": "set-to-blank",
+    "newColumnName": "040",
+    "columnInsertIndex": 6,
+    "description": "Create column 040 at index 6 based on column ISSN using expression grel:'ZCU$beng$erda$cZCU'"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Corporate name (original script)",
+    "expression": "grel:'965hyacinth$banticaste'",
+    "onError": "set-to-blank",
+    "newColumnName": "965_1",
+    "columnInsertIndex": 36,
+    "description": "Create column 965_1 at index 36 based on column Corporate name (original script) using expression grel:'965hyacinth$banticaste'"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "965_1",
+    "expression": "grel:'965anticaste'",
+    "onError": "set-to-blank",
+    "newColumnName": "965_2",
+    "columnInsertIndex": 37,
+    "description": "Create column 965_2 at index 37 based on column 965_1 using expression grel:'965anticaste'"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "041",
+    "expression": "grel:value.replace('; ','$a')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 041 using expression grel:value.replace('; ','$a')"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Format (Required)",
+    "expression": "grel:null",
+    "onError": "set-to-blank",
+    "newColumnName": "336",
+    "columnInsertIndex": 3,
+    "description": "Create column 336 at index 3 based on column Format (Required) using expression grel:null"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Format (Required)",
+          "expression": "value",
+          "columnName": "Format (Required)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Language material",
+                "l": "Language material"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "336",
+    "expression": "grel:'text$btxt$2rdacontent'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 336 using expression grel:'text$btxt$2rdacontent'"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Format (Required)",
+          "expression": "value",
+          "columnName": "Format (Required)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Two-dimensional nonprojectable graphic",
+                "l": "Two-dimensional nonprojectable graphic"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "336",
+    "expression": "grel:'still image$bsti$2rdacontent'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 336 using expression grel:'still image$bsti$2rdacontent'"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Format (Required)",
+          "expression": "value",
+          "columnName": "Format (Required)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Notated music",
+                "l": "Notated music"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "336",
+    "expression": "grel:'notated music$bntm$2rdacontent'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 336 using expression grel:'notated music$bntm$2rdacontent'"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Format (Required)",
+          "expression": "value",
+          "columnName": "Format (Required)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cartographic material",
+                "l": "Cartographic material"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "336",
+    "expression": "grel:'cartographic image$bcri$2rdacontent'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 336 using expression grel:'cartographic image$bcri$2rdacontent'"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Format (Required)",
+          "expression": "value",
+          "columnName": "Format (Required)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Projected medium",
+                "l": "Projected medium"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "336",
+    "expression": "grel:'two-dimensional moving image$btdi$2rdacontent'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 336 using expression grel:'two-dimensional moving image$btdi$2rdacontent'"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "336",
+    "expression": "grel:'computer$bc$2rdamedia'",
+    "onError": "set-to-blank",
+    "newColumnName": "337",
+    "columnInsertIndex": 4,
+    "description": "Create column 337 at index 4 based on column 336 using expression grel:'computer$bc$2rdamedia'"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "337",
+    "expression": "grel:'online resource$bcr$2rdacarrier'",
+    "onError": "set-to-blank",
+    "newColumnName": "338",
+    "columnInsertIndex": 5,
+    "description": "Create column 338 at index 5 based on column 337 using expression grel:'online resource$bcr$2rdacarrier'"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Topical Subjects",
+    "expression": "grel:value.replace('; ',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Topical Subjects using expression grel:value.replace('; ',';')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Personal Name subject",
+    "expression": "grel:value.replace('; ',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Personal Name subject using expression grel:value.replace('; ',';')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Corporate Name subject",
+    "expression": "grel:value.replace('; ',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Corporate Name subject using expression grel:value.replace('; ',';')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Geographic subject",
+    "expression": "grel:value.replace('; ',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Geographic subject using expression grel:value.replace('; ',';')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Keywords (Optional)",
+    "expression": "grel:value.replace('; ',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Keywords (Optional) using expression grel:value.replace('; ',';')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Form/genre",
+    "expression": "grel:value.replace('; ',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Form/genre using expression grel:value.replace('; ',';')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Personal name (authorized form)",
+    "expression": "grel:value.replace('; ',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Personal name (authorized form) using expression grel:value.replace('; ',';')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Corporate name (authorized form)",
+    "expression": "grel:value.replace('; ',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Corporate name (authorized form) using expression grel:value.replace('; ',';')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Personal name (original script)",
+    "expression": "grel:value.replace('; ',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Personal name (original script) using expression grel:value.replace('; ',';')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Corporate name (original script)",
+    "expression": "grel:value.replace('; ',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Corporate name (original script) using expression grel:value.replace('; ',';')"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "Keywords (Optional)",
+    "keyColumnName": "LDR",
+    "mode": "separator",
+    "separator": ", ",
+    "regex": false,
+    "description": "Split multi-valued cells in column Keywords (Optional)"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "Topical Subjects",
+    "keyColumnName": "LDR",
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "description": "Split multi-valued cells in column Topical Subjects"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "Geographic subject",
+    "keyColumnName": "LDR",
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "description": "Split multi-valued cells in column Geographic subject"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "Personal Name subject",
+    "keyColumnName": "LDR",
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "description": "Split multi-valued cells in column Personal Name subject"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "Corporate Name subject",
+    "keyColumnName": "LDR",
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "description": "Split multi-valued cells in column Corporate Name subject"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "Form/genre",
+    "keyColumnName": "LDR",
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "description": "Split multi-valued cells in column Form/genre"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "Personal name (authorized form)",
+    "keyColumnName": "LDR",
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "description": "Split multi-valued cells in column Personal name (authorized form)"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "Corporate name (authorized form)",
+    "keyColumnName": "LDR",
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "description": "Split multi-valued cells in column Corporate name (authorized form)"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "Personal name (original script)",
+    "keyColumnName": "LDR",
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "description": "Split multi-valued cells in column Personal name (original script)"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "Corporate name (original script)",
+    "keyColumnName": "LDR",
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "description": "Split multi-valued cells in column Corporate name (original script)"
+  },
+{
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Title in original script",
+          "expression": "isBlank(value)",
+          "columnName": "Title in original script",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Title in original script",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "NonLatinArray",
+    "columnInsertIndex": 29,
+    "description": "Create column NonLatinArray at index 29 based on column Title in original script using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NonLatinArray",
+          "expression": "isBlank(value)",
+          "columnName": "NonLatinArray",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Parallel title in original script",
+          "expression": "isBlank(value)",
+          "columnName": "Parallel title in original script",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NonLatinArray",
+    "expression": "grel:value + '|' + cells['Parallel title in original script'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NonLatinArray using expression grel:value + '|' + cells['Parallel title in original script'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NonLatinArray",
+          "expression": "isBlank(value)",
+          "columnName": "NonLatinArray",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Parallel title in original script",
+          "expression": "isBlank(value)",
+          "columnName": "Parallel title in original script",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NonLatinArray",
+    "expression": "grel:cells['Parallel title in original script'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NonLatinArray using expression grel:cells['Parallel title in original script'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NonLatinArray",
+          "expression": "isBlank(value)",
+          "columnName": "NonLatinArray",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Edition statement (original script)",
+          "expression": "isBlank(value)",
+          "columnName": "Edition statement (original script)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NonLatinArray",
+    "expression": "grel:value + '|' + cells['Edition statement (original script)'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NonLatinArray using expression grel:value + '|' + cells['Edition statement (original script)'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NonLatinArray",
+          "expression": "isBlank(value)",
+          "columnName": "NonLatinArray",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Edition statement (original script)",
+          "expression": "isBlank(value)",
+          "columnName": "Edition statement (original script)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NonLatinArray",
+    "expression": "grel:cells['Edition statement (original script)'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NonLatinArray using expression grel:cells['Edition statement (original script)'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NonLatinArray",
+          "expression": "isBlank(value)",
+          "columnName": "NonLatinArray",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Place of publication (original script)",
+          "expression": "isBlank(value)",
+          "columnName": "Place of publication (original script)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NonLatinArray",
+    "expression": "grel:value + '|' + cells['Place of publication (original script)'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NonLatinArray using expression grel:value + '|' + cells['Place of publication (original script)'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NonLatinArray",
+          "expression": "isBlank(value)",
+          "columnName": "NonLatinArray",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Place of publication (original script)",
+          "expression": "isBlank(value)",
+          "columnName": "Place of publication (original script)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NonLatinArray",
+    "expression": "grel:cells['Place of publication (original script)'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NonLatinArray using expression grel:cells['Place of publication (original script)'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NonLatinArray",
+          "expression": "isBlank(value)",
+          "columnName": "NonLatinArray",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Series statement (original script)",
+          "expression": "isBlank(value)",
+          "columnName": "Series statement (original script)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NonLatinArray",
+    "expression": "grel:value + '|' + cells['Series statement (original script)'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NonLatinArray using expression grel:value + '|' + cells['Series statement (original script)'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NonLatinArray",
+          "expression": "isBlank(value)",
+          "columnName": "NonLatinArray",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Series statement (original script)",
+          "expression": "isBlank(value)",
+          "columnName": "Series statement (original script)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NonLatinArray",
+    "expression": "grel:cells['Series statement (original script)'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NonLatinArray using expression grel:cells['Series statement (original script)'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NonLatinArray",
+          "expression": "isBlank(value)",
+          "columnName": "NonLatinArray",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Personal name (original script)",
+          "expression": "isBlank(value)",
+          "columnName": "Personal name (original script)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NonLatinArray",
+    "expression": "grel:value + '|' + cells['Personal name (original script)'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NonLatinArray using expression grel:value + '|' + cells['Personal name (original script)'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NonLatinArray",
+          "expression": "isBlank(value)",
+          "columnName": "NonLatinArray",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Personal name (original script)",
+          "expression": "isBlank(value)",
+          "columnName": "Personal name (original script)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NonLatinArray",
+    "expression": "grel:cells['Personal name (original script)'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NonLatinArray using expression grel:cells['Personal name (original script)'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NonLatinArray",
+          "expression": "isBlank(value)",
+          "columnName": "NonLatinArray",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Corporate name (original script)",
+          "expression": "isBlank(value)",
+          "columnName": "Corporate name (original script)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NonLatinArray",
+    "expression": "grel:value + '|' + cells['Corporate name (original script)'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NonLatinArray using expression grel:value + '|' + cells['Corporate name (original script)'].value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NonLatinArray",
+          "expression": "isBlank(value)",
+          "columnName": "NonLatinArray",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Corporate name (original script)",
+          "expression": "isBlank(value)",
+          "columnName": "Corporate name (original script)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NonLatinArray",
+    "expression": "grel:cells['Corporate name (original script)'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column NonLatinArray using expression grel:cells['Corporate name (original script)'].value"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "NonLatinArray",
+    "keyColumnName": "LDR",
+    "separator": "|",
+    "description": "Join multi-valued cells in column NonLatinArray"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Title in original script",
+          "expression": "isBlank(value)",
+          "columnName": "Title in original script",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Title in original script",
+    "expression": "grel:join(forEachIndex(cells['NonLatinArray'].value.split('|'),i,v,if (value == v,if(i<=8, '245-0' + (i +1) + '$a' + value,'245-' + (i +1) + '$a' + value),null)),'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Title in original script using expression grel:join(forEachIndex(cells['NonLatinArray'].value.split('|'),i,v,if (value == v,if(i<=8, '245-0' + (i +1) + '$a' + value,'245-' + (i +1) + '$a' + value),null)),'')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Parallel title in original script",
+          "expression": "isBlank(value)",
+          "columnName": "Parallel title in original script",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Parallel title in original script",
+    "expression": "grel:join(forEachIndex(cells['NonLatinArray'].value.split('|'),i,v,if (value == v,if(i<=8, '246-0' + (i +1) + '$a' + value,'246-' + (i +1) + '$a' + value),null)),'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Parallel title in original script using expression grel:join(forEachIndex(cells['NonLatinArray'].value.split('|'),i,v,if (value == v,if(i<=8, '246-0' + (i +1) + '$a' + value,'246-' + (i +1) + '$a' + value),null)),'')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Edition statement (original script)",
+          "expression": "isBlank(value)",
+          "columnName": "Edition statement (original script)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Edition statement (original script)",
+    "expression": "grel:join(forEachIndex(cells['NonLatinArray'].value.split('|'),i,v,if (value == v,if(i<=8, '250-0' + (i +1) + '$a' + value,'250-' + (i +1) + '$a' + value),null)),'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Edition statement (original script) using expression grel:join(forEachIndex(cells['NonLatinArray'].value.split('|'),i,v,if (value == v,if(i<=8, '250-0' + (i +1) + '$a' + value,'250-' + (i +1) + '$a' + value),null)),'')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Place of publication (original script)",
+          "expression": "isBlank(value)",
+          "columnName": "Place of publication (original script)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Place of publication (original script)",
+    "expression": "grel:join(forEachIndex(cells['NonLatinArray'].value.split('|'),i,v,if (value == v,if(i<=8, '264-0' + (i +1) + '$a' + value,'264-' + (i +1) + '$a' + value),null)),'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Place of publication (original script) using expression grel:join(forEachIndex(cells['NonLatinArray'].value.split('|'),i,v,if (value == v,if(i<=8, '264-0' + (i +1) + '$a' + value,'264-' + (i +1) + '$a' + value),null)),'')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Series statement (original script)",
+          "expression": "isBlank(value)",
+          "columnName": "Series statement (original script)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Series statement (original script)",
+    "expression": "grel:join(forEachIndex(cells['NonLatinArray'].value.split('|'),i,v,if (value == v,if(i<=8, '490-0' + (i +1) + '$a' + value,'490-' + (i +1) + '$a' + value),null)),'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Series statement (original script) using expression grel:join(forEachIndex(cells['NonLatinArray'].value.split('|'),i,v,if (value == v,if(i<=8, '490-0' + (i +1) + '$a' + value,'490-' + (i +1) + '$a' + value),null)),'')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Personal name (original script)",
+          "expression": "isBlank(value)",
+          "columnName": "Personal name (original script)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Personal name (original script)",
+    "expression": "grel:join(forEachIndex(row.record.cells['NonLatinArray'].value[0].split('|'),i,v,if (value == v,if(i<=8, '700-0' + (i +1) + '$a' + value,'700-' + (i +1) + '$a' + value),null)),'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Personal name (original script) using expression grel:join(forEachIndex(cells['NonLatinArray'].value.split('|'),i,v,if (value == v,if(i<=8, '700-0' + (i +1) + '$a' + value,'700-' + (i +1) + '$a' + value),null)),'')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Corporate name (original script)",
+          "expression": "isBlank(value)",
+          "columnName": "Corporate name (original script)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Corporate name (original script)",
+    "expression": "grel:join(forEachIndex(row.record.cells['NonLatinArray'].value[0].split('|'),i,v,if (value == v,if(i<=8, '710-0' + (i +1) + '$a' + value,'710-' + (i +1) + '$a' + value),null)),'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Corporate name (original script) using expression grel:join(forEachIndex(cells['NonLatinArray'].value.split('|'),i,v,if (value == v,if(i<=8, '710-0' + (i +1) + '$a' + value,'710-' + (i +1) + '$a' + value),null)),'')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Title in original script",
+          "expression": "isBlank(value)",
+          "columnName": "Title in original script",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Title proper (Transliterated if non-Latin) (Required)",
+    "expression": "grel:'$6880' + substring(cells['Title in original script'].value,3,8) + value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Title proper (Transliterated if non-Latin) (Required) using expression grel:'$6880' + substring(cells['Title in original script'].value,3,8) + value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Parallel title in original script",
+          "expression": "isBlank(value)",
+          "columnName": "Parallel title in original script",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Parallel title (Transliterated if non-Latin)",
+    "expression": "grel:'$6880' + substring(cells['Parallel title in original script'].value,3,8) + value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Parallel title (Transliterated if non-Latin) using expression grel:'$6880' + substring(cells['Parallel title in original script'].value,3,8) + value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Edition statement (original script)",
+          "expression": "isBlank(value)",
+          "columnName": "Edition statement (original script)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Edition statement (transliterated if non-Latin script)",
+    "expression": "grel:'$6880' + substring(cells['Edition statement (original script)'].value,3,8) +  value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Edition statement (transliterated if non-Latin script) using expression grel:'$6880' + substring(cells['Edition statement (original script)'].value,3,8) + value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Place of publication (original script)",
+          "expression": "isBlank(value)",
+          "columnName": "Place of publication (original script)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Place of publication (transliterated if non-Latin script)",
+    "expression": "grel:'$6880' + substring(cells['Place of publication (original script)'].value,3,8) + value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Place of publication (transliterated if non-Latin script) using expression grel:'$6880' + substring(cells['Place of publication (original script)'].value,3,8) + value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Series statement (original script)",
+          "expression": "isBlank(value)",
+          "columnName": "Series statement (original script)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Series statement (transliterated if non-Latin script)",
+    "expression": "grel:'$6880' + substring(cells['Series statement (original script)'].value,3,8) + value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Series statement (transliterated if non-Latin script) using expression grel:'$6880' + substring(cells['Series statement (original script)'].value,3,8) + value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Personal name (original script)",
+          "expression": "isBlank(value)",
+          "columnName": "Personal name (original script)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Personal name (authorized form)",
+    "expression": "grel:'$6880' + substring(cells['Personal name (original script)'].value,3,8) + value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Personal name (authorized form) using expression grel:'$6880' + substring(cells['Personal name (original script)'].value,3,8) + value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Corporate name (original script)",
+          "expression": "isBlank(value)",
+          "columnName": "Corporate name (original script)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Corporate name (authorized form)",
+    "expression": "grel:'$6880' + substring(cells['Corporate name (original script)'].value,3,8) + value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Corporate name (authorized form) using expression grel:'$6880' + substring(cells['Corporate name (original script)'].value,3,8) + value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Topical Subjects",
+          "expression": "isBlank(value)",
+          "columnName": "Topical Subjects",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Topical Subjects",
+    "expression": "grel:value + '$2fast'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Topical Subjects using expression grel:value + '$2fast'"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Geographic subject",
+          "expression": "isBlank(value)",
+          "columnName": "Geographic subject",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Geographic subject",
+    "expression": "grel:value + '$2fast'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Geographic subject using expression grel:value + '$2fast'"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Form/genre",
+          "expression": "isBlank(value)",
+          "columnName": "Form/genre",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Form/genre",
+    "expression": "grel:value + '$2fast'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Form/genre using expression grel:value + '$2fast'"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Keywords (Optional)",
+    "keyColumnName": "LDR",
+    "separator": "|=653  \\\\$a",
+    "description": "Join multi-valued cells in column Keywords (Optional)"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Topical Subjects",
+    "keyColumnName": "LDR",
+    "separator": "|=650  \\7$a",
+    "description": "Join multi-valued cells in column Topical Subjects"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Personal Name subject",
+    "keyColumnName": "LDR",
+    "separator": "|=600  10$a",
+    "description": "Join multi-valued cells in column Personal Name subject"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Corporate Name subject",
+    "keyColumnName": "LDR",
+    "separator": "|=610  20$a",
+    "description": "Join multi-valued cells in column Corporate Name subject"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Geographic subject",
+    "keyColumnName": "LDR",
+    "separator": "|=651  \\7$a",
+    "description": "Join multi-valued cells in column Geographic subject"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Form/genre",
+    "keyColumnName": "LDR",
+    "separator": "|=655  \\7$a",
+    "description": "Join multi-valued cells in column Form/genre"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Personal name (authorized form)",
+    "keyColumnName": "LDR",
+    "separator": "|=700  1\\$a",
+    "description": "Join multi-valued cells in column Personal name (authorized form)"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Corporate name (authorized form)",
+    "keyColumnName": "LDR",
+    "separator": "|=710  2\\$a",
+    "description": "Join multi-valued cells in column Corporate name (authorized form)"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Personal name (original script)",
+    "keyColumnName": "LDR",
+    "separator": "|=880  1\\$6",
+    "description": "Join multi-valued cells in column Personal name (original script)"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Corporate name (original script)",
+    "keyColumnName": "LDR",
+    "separator": "|=880  2\\$6",
+    "description": "Join multi-valued cells in column Corporate name (original script)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Collection title",
+          "expression": "isBlank(value)",
+          "columnName": "Collection title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Collection title",
+    "expression": "grel:value + '.$5NNC'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Collection title using expression grel:value + '.$5NNC'"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Date of cataloging",
+          "expression": "isBlank(value)",
+          "columnName": "Date of cataloging",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Source of description note (serials only)",
+          "expression": "isBlank(value)",
+          "columnName": "Source of description note (serials only)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Source of description note (serials only)",
+    "expression": "grel:'Description based on print copy viewed on ' + toString(toDate(cells['Date of cataloging'].value),'dd MMM YYYY')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Source of description note (serials only) using expression grel:'Description based on print copy viewed on ' + toString(toDate(cells['Date of cataloging'].value),'dd MMM YYYY')"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Corporate name (original script)",
+    "expression": "grel:toString(now(), 'YYYYMMdd') + '$bSTATDGTL$cao3038$dMPB'",
+    "onError": "set-to-blank",
+    "newColumnName": "948",
+    "columnInsertIndex": 41,
+    "description": "Create column 948 at index 41 based on column Corporate name (original script) using expression grel:toString(now(), 'YYYYMMdd') + '$bSTATDGTL$cao3038$dMPB'"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Issuance (Required)",
+          "expression": "value",
+          "columnName": "Issuance (Required)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "m",
+                "l": "m"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Collection title",
+    "expression": "grel:'Monograph$tlweb$cOther scheme$dEBOOKS'",
+    "onError": "set-to-blank",
+    "newColumnName": "949",
+    "columnInsertIndex": 34,
+    "description": "Create column 949 at index 34 based on column Collection title using expression grel:'Monograph$tlweb$cOther scheme$dEBOOKS'"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Issuance (Required)",
+          "expression": "value",
+          "columnName": "Issuance (Required)",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "s",
+                "l": "s"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "949",
+    "expression": "grel:'Serial$tlweb$cOther scheme$dEJOURNALS'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column 949 using expression grel:'Serial$tlweb$cOther scheme$dEJOURNALS'"
+  },
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "LDR",
+      "006",
+      "007",
+      "008",
+      "ISBN",
+      "ISSN",
+      "024",
+	  "040",
+      "041",
+      "Title proper (Transliterated if non-Latin) (Required)",
+      "Parallel title (Transliterated if non-Latin)",
+      "Edition statement (transliterated if non-Latin script)",
+      "Place of publication (transliterated if non-Latin script)",
+      "Number of pages and type of unit",
+      "Publication frequency (serials only)",
+      "336",
+      "337",
+      "338",
+      "Series statement (transliterated if non-Latin script)",
+      "Note",
+      "Description (scope and content)",
+      "Languages of the material (note)",
+      "Source of description note (serials only)",
+      "Topical Subjects",
+      "Personal Name subject",
+      "Corporate Name subject",
+      "Geographic subject",
+      "Keywords (Optional)",
+      "Form/genre",
+      "Personal name (authorized form)",
+      "Corporate name (authorized form)",
+      "Owner_personal",
+      "Owner_coprorate",
+      "Collection title",
+      "Title in original script",
+      "Parallel title in original script",
+      "Edition statement (original script)",
+      "Place of publication (original script)",
+      "Series statement (original script)",
+      "Personal name (original script)",
+      "Corporate name (original script)",
+	  "948",
+	  "949",
+      "965_1",
+      "965_2",
+      "NonLatinArray",
+      "Format (Required)",
+      "008-Type",
+      "Languages of the material (code) (Required)",
+      "Script_008",
+      "008-Lang",
+      "Issuance (Required)",
+      "Initial article of title proper",
+      "Subtitle (Transliterated if non-Latin)",
+      "Statement of responsibility (Transliterated if non-Latin)",
+      "Subtitle in original script",
+      "Statement of responsibility in original script",
+      "Publisher (transliterated if non-Latin script)",
+      "Publisher (original script)",
+      "Dates of original material (Required)",
+      "Formatted dates (Required)",
+      "Scripts of materials (e.g. Latin, Cyrillic, Greek, Coptic, Arabic)",
+      "Published",
+      "Copyright status statement",
+      "Notes-Rights",
+      "Attribution of rights",
+      "Restrictions on Access",
+      "Embargo Release Date"
+    ],
+    "description": "Reorder columns"
+  }
+]

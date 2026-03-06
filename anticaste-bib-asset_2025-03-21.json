@@ -1,0 +1,446 @@
+[
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Sequence no.",
+    "newColumnName": "_parent_digital_objects-1.identifier",
+    "description": "Rename column Sequence no. to _parent_digital_objects-1.identifier"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_parent_digital_objects-1.identifier",
+    "expression": "grel:null",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column _parent_digital_objects-1.identifier using expression grel:null"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "_parent_digital_objects-1.identifier",
+    "expression": "grel:'anticaste'",
+    "onError": "set-to-blank",
+    "newColumnName": "_project.string_key",
+    "columnInsertIndex": 1,
+    "description": "Create column _project.string_key at index 1 based on column _parent_digital_objects-1.identifier using expression grel:'anticaste'"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "_project.string_key",
+    "index": 0,
+    "description": "Move column _project.string_key to position 0"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Level",
+    "index": 1,
+    "description": "Move column Level to position 1"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Level",
+    "newColumnName": "_digital_object_type.string_key",
+    "description": "Rename column Level to _digital_object_type.string_key"
+  },
+  
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Filename",
+    "newColumnName": "note-1:note_value",
+    "description": "Rename column Filename to note-1:note_value"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "note-1:note_value",
+    "expression": "grel:'original filename'",
+    "onError": "set-to-blank",
+    "newColumnName": "note-1:note_type",
+    "columnInsertIndex": 4,
+    "description": "Create column note-1:note_type at index 4 based on column note-1:note_value using expression grel:'original filename'"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "note-1:note_type",
+    "index": 3,
+    "description": "Move column note-1:note_type to position 3"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "note-1:note_value",
+    "expression": "grel:value.replace(/.+\\\\(.+)\\.tif/,'$1')",
+    "onError": "set-to-blank",
+    "newColumnName": "_identifiers-1",
+    "columnInsertIndex": 2,
+    "description": "Create column _identifiers-1 at index 5 based on column note-1:note_value using expression grel:value.replace(/.+\\\\(.+)\\.tif/,'$1')"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Asset Title \n (Page 1 or Recto/Verso, etc)",
+    "newColumnName": "title-1:title_sort_portion",
+    "description": "Rename column Asset Title \n (Page 1 or Recto/Verso, etc) to title-1:title_sort_portion"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "_identifiers-1",
+          "columnName": "_identifiers-1",
+          "query": "Colorchecker",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Extent and format of digital copies \n (number of TIFF images, size in megabytes )",
+    "description": "Remove column Extent and format of digital copies \n (number of TIFF images, size in megabytes )"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Notes on quality and contents \n (e.g. damage)",
+    "expression": "grel:'Note on quality and contents: ' + value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Notes on quality and contents \n (e.g. damage) using expression grel:'Note on quality and contents: ' + value"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Notes on quality and contents \n (e.g. damage)",
+    "newColumnName": "note-2:note_value",
+    "description": "Rename column Notes on quality and contents \n (e.g. damage) to note-2:note_value"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Note",
+    "newColumnName": "note-3:note_value",
+    "description": "Rename column Note to note-3:note_value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Digitization Date",
+    "expression": "grel:'Date digitized: ' + value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Digitization Date using expression grel:'Date digitized: ' + value"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Digitization Date",
+    "newColumnName": "internal_note-1:internal_note_value",
+    "description": "Rename column Digitization Date to internal_note-1:internal_note_value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_parent_digital_objects-1.identifier",
+    "expression": "grel:cells['_identifiers-1'].value.replace(/(.+)_.+/,'$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column _parent_digital_objects-1.identifier using expression grel:cells['_identifiers-1'].value.replace(/(.+)_.+/,'$1')"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "_parent_digital_objects-1.identifier",
+    "expression": "grel:cell.cross('Items','024').cells['Restrictions on Access'].value[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "restriction_on_access-1:restriction_on_access_value",
+    "columnInsertIndex": 10,
+    "description": "Create column restriction_on_access-1:restriction_on_access_value at index 10 based on column _parent_digital_objects-1.identifier using expression grel:cell.cross('Items','024').cells['Restrictions on Access'].value[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "_parent_digital_objects-1.identifier",
+    "expression": "grel:cell.cross('Items','024').cells['Embargo Release Date'].value[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "restriction_on_access-1:restriction_on_access_embargo_date",
+    "columnInsertIndex": 11,
+    "description": "Create column restriction_on_access-1:restriction_on_access_embargo_date at index 11 based on column _parent_digital_objects-1.identifier using expression grel:cell.cross('Items','024').cells['Embargo Release Date'].value[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "_parent_digital_objects-1.identifier",
+    "expression": "grel:cell.cross('Items','024').cells['Notes--Rights'].value[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "copyright_note-1:copyright_note_value",
+    "columnInsertIndex": 12,
+    "description": "Create copyright_note-1:copyright_note_value at index 12 based on column _parent_digital_objects-1.identifier using expression grel:cell.cross('Items','024').cells['Notes--Rights'].value[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "_parent_digital_objects-1.identifier",
+    "expression": "grel:cell.cross('Items','024').cells['Copyright status statement'].value[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "use_and_reproduction-1:use_and_reproduction_term.value",
+    "columnInsertIndex": 13,
+    "description": "Create column use_and_reproduction-1:use_and_reproduction_term.valueat index 12 based on column _parent_digital_objects-1.identifier using expression grel:cell.cross('Items','024').cells['Copyright status statement'].value[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "use_and_reproduction-1:use_and_reproduction_term.value",
+    "expression": "grel:'rightsstatements'",
+    "onError": "set-to-blank",
+    "newColumnName": "use_and_reproduction-1:use_and_reproduction_term.authority",
+    "columnInsertIndex": 14,
+    "description": "Create column use_and_reproduction-1:use_and_reproduction_term.authority at index 13 based on column _parent_digital_objects-1.identifier using expression grel:'rightsstatements'"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "use_and_reproduction-1:use_and_reproduction_term.authority",
+    "expression": "grel:null",
+    "onError": "set-to-blank",
+    "newColumnName": "use_and_reproduction-1:use_and_reproduction_term.uri",
+    "columnInsertIndex": 15,
+    "description": "Create column use_and_reproduction-1:use_and_reproduction_term.uri at index 14 based on column _parent_digital_objects-1.identifier using expression grel:null"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "_parent_digital_objects-1.identifier",
+    "expression": "grel:cell.cross('Items','024').cells['Notes-Rights'].value[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "copyright_note-1:copyright_note_value",
+    "columnInsertIndex": 16,
+    "description": "Create column copyright_note-1:copyright_note_value at index 15 based on column _parent_digital_objects-1.identifier using expression grel:cell.cross('Items','024').cells['Notes-Rights'].value[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "_parent_digital_objects-1.identifier",
+    "expression": "grel:cell.cross('Items','024').cells['Attribution of rights'].value[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "note-4:note_value",
+    "columnInsertIndex": 17,
+    "description": "Create column note-4:note_value at index 16 based on column _parent_digital_objects-1.identifier using expression grel:cell.cross('Items','024').cells['Attribution of rights'].value[0]"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "use_and_reproduction-1:use_and_reproduction_term.value",
+          "expression": "value",
+          "columnName": "use_and_reproduction-1:use_and_reproduction_term.value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "No Copyright - United States",
+                "l": "No Copyright - United States"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "use_and_reproduction-1:use_and_reproduction_term.uri",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "https://rightsstatements.org/vocab/NoC-US/1.0/"
+      }
+    ],
+    "description": "Mass edit cells in column use_and_reproduction-1:use_and_reproduction_term.uri"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "use_and_reproduction-1:use_and_reproduction_term.value",
+          "expression": "value",
+          "columnName": "use_and_reproduction-1:use_and_reproduction_term.value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Copyright Undetermined",
+                "l": "Copyright Undetermined"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "use_and_reproduction-1:use_and_reproduction_term.uri",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "https://rightsstatements.org/vocab/UND/1.0/"
+      }
+    ],
+    "description": "Mass edit cells in column use_and_reproduction-1:use_and_reproduction_term.uri"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "use_and_reproduction-1:use_and_reproduction_term.value",
+          "expression": "value",
+          "columnName": "use_and_reproduction-1:use_and_reproduction_term.value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "In Copyright",
+                "l": "In Copyright"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "use_and_reproduction-1:use_and_reproduction_term.uri",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "https://rightsstatements.org/vocab/InC/1.0/"
+      }
+    ],
+    "description": "Mass edit cells in column use_and_reproduction-1:use_and_reproduction_term.uri"
+  },
+   {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "use_and_reproduction-1:use_and_reproduction_term.value",
+          "expression": "value",
+          "columnName": "use_and_reproduction-1:use_and_reproduction_term.value",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "In Copyright - Rights-Holder(s) Unlocatable or Unidentifiable",
+                "l": "In Copyright - Rights-Holder(s) Unlocatable or Unidentifiable"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "use_and_reproduction-1:use_and_reproduction_term.uri",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          ""
+        ],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "https://rightsstatements.org/vocab/InC-RUU/1.0/"
+      }
+    ],
+    "description": "Mass edit cells in column use_and_reproduction-1:use_and_reproduction_term.uri"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Digital folder name \n (This needs to be exactly the same as it appears on the hard drive(s))",
+    "description": "Remove column Digital folder name \n (This needs to be exactly the same as it appears on the hard drive(s))"
+  }
+]
